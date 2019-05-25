@@ -1,0 +1,95 @@
+Reading backup file...
+WARNING: Bad MAC in frame: theirMac: (hex:) 77 ad 9b c4 d1 38 32 c5 a2 ac
+                             ourMac: (hex:) 33 73 7d 90 34 34 76 92 67 8a a9 69 0c d1 55 a5 a6 f1 ab 3d 06 26 9b 0c 97 bd 20 a7 62 46 23 9a
+
+WARNING: Bad MAC in frame, trying to print frame info:
+Frame number: 17335
+        Type: ATTACHMENT
+         - row id          : 555 (8 bytes)
+         - attachment id   : 1520954284169 (8 bytes)
+         - length          : 13693646 (8 bytes)
+         - attachment      : (hex:) e3 88 f8 1f ef ba f9 0f 1a d6 9a e7 37 9c 81 3d cc e5 21 8a f0 7b ef eb d5 ... (13693646 bytes total)
+Frame is attachment, it belongs to entry in the 'part' table of the database:
+ - _id : 555
+ - mid : 585
+ - seq : 0
+ - ct : video/mp4
+ - name : (NULL)
+ - chset : (NULL)
+ - cd : (NULL)
+ - fn : (NULL)
+ - cid : (NULL)
+ - cl : (NULL)
+ - ctt_s : (NULL)
+ - ctt_t : (NULL)
+ - encrypted : (NULL)
+ - pending_push : 0
+ - _data : /data/user/0/org.thoughtcrime.securesms/app_parts/part6580222869580770951.mms
+ - data_size : 13693646
+ - file_name : (NULL)
+ - thumbnail : /data/user/0/org.thoughtcrime.securesms/app_parts/part2681786582986581875.mms
+ - aspect_ratio : 0.6
+ - unique_id : 1520954284169
+ - digest : (NULL)
+ - fast_preflight_id : (NULL)
+ - voice_note : 0
+ - data_random : (hex:) 55 a2 89 9d 24 4f 1f 93 fd fb 15 25 49 a0 1d 33 77 cc 51 a6 d9 0d 92 df bb 05 1a 81 cb 40 c3 47
+ - thumbnail_random : (hex:) d3 5e 8c 1d 03 6d f0 ce 86 c1 25 da 0f 71 20 cf 02 f6 a6 44 47 83 b4 77 db 1d 3f 72 1e 34 7d ef
+ - width : 0
+ - height : 0
+ - quote : 0
+ - caption : (NULL)
+
+Which belongs to entry in 'mms' table:
+ - _id : 585
+ - thread_id : 3
+ - date : 2018-03-13 14:56:15 +0000 (1520952975374)
+ - date_received : 2018-03-13 15:18:04 +0000 (1520954284000)
+ - msg_box : 10485780
+ - read : 1
+ - m_id : (NULL)
+ - sub : (NULL)
+ - sub_cs : (NULL)
+ - body : 
+ - part_count : 1
+ - ct_t : (NULL)
+ - ct_l : 
+ - address : +XXXXXXXX
+ - address_device_id : (NULL)
+ - exp : (NULL)
+ - m_cls : (NULL)
+ - m_type : 132
+ - v : (NULL)
+ - m_size : (NULL)
+ - pri : (NULL)
+ - rr : (NULL)
+ - rpt_a : (NULL)
+ - resp_st : (NULL)
+ - st : 1
+ - tr_id : (NULL)
+ - retr_st : (NULL)
+ - retr_txt : (NULL)
+ - retr_txt_cs : (NULL)
+ - read_status : (NULL)
+ - ct_cls : (NULL)
+ - resp_txt : (NULL)
+ - d_tm : (NULL)
+ - delivery_receipt_count : 0
+ - mismatched_identities : (NULL)
+ - network_failures : (NULL)
+ - d_rpt : (NULL)
+ - subscription_id : -1
+ - expires_in : 0
+ - expire_started : 0
+ - notified : 0
+ - read_receipt_count : 0
+ - quote_id : 0
+ - quote_author : (NULL)
+ - quote_body : (NULL)
+ - quote_attachment : -1
+ - shared_contacts : (NULL)
+ - quote_missing : 0
+ - unidentified : 0
+ - previews : (NULL)
+Trying to dump decoded attachment to file 'attachment.bin'
+done!
